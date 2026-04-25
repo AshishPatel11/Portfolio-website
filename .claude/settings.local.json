@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"d:/Projects/me/Portfolio/src/app/components\")",
+      "Bash(mkdir -p \"d:/Projects/me/Portfolio/public\")"
+    ]
+  }
+}
