@@ -1,4 +1,5 @@
 import './globals.css';
+import Script from "next/script"
 
 export const metadata = {
   metadataBase: new URL('https://ashish-patel.dev'),
@@ -87,6 +88,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
           rel="stylesheet"
         />
+        <Script src="https://staging-widget.braoza.com/v1/assets/static-pages/injector.js" type="module" data-account="mqpgm3eq71"></Script>
       </head>
       <body>{children}</body>
     </html>
